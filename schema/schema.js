@@ -1,4 +1,5 @@
 const graphql = require('graphql');
+const _ = require('lodash');
 const {
   GraphQLObjectType,
   GraphQLString,
@@ -9,8 +10,8 @@ const {
 } = graphql;
 
 const users = [
-  { id: 22, name: 'stephen', age: 25 },
-  { id: 44, name: 'Enes', age: 30 },
+  { id: '22', name: 'stephen', age: 25 },
+  { id: '44', name: 'Enes', age: 30 },
 ];
 
 const UserType = new GraphQLObjectType({
