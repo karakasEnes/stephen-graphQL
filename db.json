@@ -1,12 +1,27 @@
 {
   "users": [
-    { "id": "22", "firstName": "Billy", "age": 22, "companyId": "1" },
-    { "id": "44", "firstName": "Jack", "age": 33, "companyId": "2" },
-    { "id": "22", "firstName": "Sun", "age": 44, "companyId": "1" }
+    {
+      "id": "22",
+      "firstName": "XYZ",
+      "age": "444",
+      "companyId": "1"
+    },
+    {
+      "firstName": "stephenIsSmart",
+      "age": "33",
+      "id": "lDXIHXS"
+    }
   ],
-
   "companies": [
-    { "id": 1, "name": "Facebook", "description": "the Best" },
-    { "id": 2, "name": "Google", "description": "the Best" }
+    {
+      "id": 1,
+      "name": "Facebook",
+      "description": "the Best"
+    },
+    {
+      "id": 2,
+      "name": "Google",
+      "description": "the Best"
+    }
   ]
 }
